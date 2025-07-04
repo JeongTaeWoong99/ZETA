@@ -1,0 +1,670 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5207816021399812780
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5522480722691018131}
+  - component: {fileID: 6726907351366290757}
+  - component: {fileID: 4143406999106787392}
+  - component: {fileID: 1064503636368054290}
+  - component: {fileID: 7555510996336998139}
+  - component: {fileID: 5214619741070280919}
+  - component: {fileID: 384175518095306086}
+  - component: {fileID: 2267248718580083963}
+  - component: {fileID: 6626851665729588159}
+  m_Layer: 0
+  m_Name: ZETA Trail
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5522480722691018131
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5207816021399812780}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &6726907351366290757
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5207816021399812780}
+  m_Mesh: {fileID: 0}
+--- !u!23 &4143406999106787392
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5207816021399812780}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e307349ecf104254e98dce0d1ed4ee13, type: 2}
+  - {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - {fileID: 2100000, guid: e307349ecf104254e98dce0d1ed4ee13, type: 2}
+  - {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - {fileID: 2100000, guid: e307349ecf104254e98dce0d1ed4ee13, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!95 &1064503636368054290
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5207816021399812780}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a6c20dc5cc81eb7448747a9e844e0fb0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &7555510996336998139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5207816021399812780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9db98c60740638449864eb028fbe7ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skeletonDataAsset: {fileID: 11400000, guid: 666b57199624d13489ba48c3c6b6039f, type: 2}
+  initialSkinName: 
+  initialFlipX: 0
+  initialFlipY: 0
+  updateWhenInvisible: 3
+  separatorSlotNames: []
+  zSpacing: 0
+  useClipping: 1
+  immutableTriangles: 0
+  pmaVertexColors: 0
+  clearStateOnDisable: 0
+  tintBlack: 0
+  singleSubmesh: 0
+  fixDrawOrder: 0
+  addNormals: 0
+  calculateTangents: 0
+  maskInteraction: 0
+  maskMaterials:
+    materialsMaskDisabled: []
+    materialsInsideMask: []
+    materialsOutsideMask: []
+  disableRenderingOnOverride: 1
+  translator:
+    autoReset: 1
+    useCustomMixMode: 1
+    layerMixModes: 01000000
+    layerBlendModes: 01000000
+--- !u!114 &5214619741070280919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5207816021399812780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e973a96d25dc7f4ea83e346cb9a5745, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sortingGroup: {fileID: 384175518095306086}
+--- !u!210 &384175518095306086
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5207816021399812780}
+  m_Enabled: 1
+  m_SortingLayerID: 1468566761
+  m_SortingLayer: 7
+  m_SortingOrder: 1
+--- !u!114 &2267248718580083963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5207816021399812780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9546d42c8cfcc1542a21164ab1b59deb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  customMaterials: {fileID: 6626851665729588159}
+  fadeSpeed: 1
+--- !u!114 &6626851665729588159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5207816021399812780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26947ae098a8447408d80c0c86e35b48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skeletonRenderer: {fileID: 7555510996336998139}
+  customSlotMaterials:
+  - overrideDisabled: 0
+    slotName: back_arm_l_lower
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: back_arm_l_lower_light
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: back_arm_l_upper
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: back_arm_r_lower
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: back_arm_r_lower_light
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: back_arm_r_upper
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: back_hand_l
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: back_hand_r
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: back_hand_r_light
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: back_headgear_b_l
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: back_headgear_b_r
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: back_headgear_f_l
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: back_headgear_f_l_light
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: back_headgear_f_r
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: back_headgear_f_r_light
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: back_headgear_hold_b
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: back_headgear_hold_b_light
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: back_headgear_hold_f
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: back_headgear_hold_f_light
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: back_leg_l_foot_light
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: back_leg_l_lower_light
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: back_leg_l_upper_light
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: back_leg_r_lower
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: back_leg_r_lower_light
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: back_leg_r_upper_light
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: back_neck_shackles_light
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: body
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: body_buckle
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: body_light_red
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: body_light_yellow
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: clothes
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: clothes_light
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: eye_r
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_arm_l_lower
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_arm_l_lower_light
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_arm_l_upper
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_arm_l_upper_light
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_arm_r_lower
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_arm_r_lower_light
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_arm_r_upper
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_arm_r_upper_light
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_arm_r_wapon
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_arm_r_wapon_light
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_body_light_yellow
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_breast_l
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_breast_r
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_brow_l
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_brow_r
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_buckle_connect
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_buckle_l_front
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_buckle_l_front_light
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_buckle_l_front2_light
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_buckle_l_front3
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_buckle_l_front3_light
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_buckle_l_string2
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_buckle_r_front
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_buckle_r_front_light
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_buckle_r_front3
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_buckle_r_front3_light
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_buckle_r_front4
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_buckle_r_front4_light
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_buckle_r_quarter
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_buckle_r_side
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_buckle_r_string7
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_buckle_string_l
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_bucklie_l_string3
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_bucklie_r_string
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_bucklie_r_string6
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_bucklie_string4
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_clothes_arm_l_lower
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_clothes_arm_l_upper
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_clothes_arm_r_b
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_clothes_arm_r_b_light
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_clothes_arm_r_lower
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_clothes_arm_r_lower_l
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_clothes_arm_r_upper
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_eye_l_1
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_eyeball_l
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_eyeball_r
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_hair_b
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_hair_f
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_hair_f_l
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_hair_f_r
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_hair_in
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_hair_in_light
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_hair_l
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_hair_l_l
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_hair_r
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_hair_r_r
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_hand_l_1
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_hand_l_light
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_hand_r_1
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_hand_r_light
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_headgear_b_l
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_headgear_b_l_light
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_headgear_b_r
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_headgear_b_r_light
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_headgear_f_l
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_headgear_f_l_light
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_headgear_f_r
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_headgear_f_r_light
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_headgear_hold_b
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_headgear_hold_b_light
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_headgear_hold_f
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_headgear_hold_f_light
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_iris_l
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_iris_r
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_leg_l_foot
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_leg_l_foot_light
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_leg_l_lower
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_leg_l_lower_light
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_leg_l_shackles
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_leg_l_shackles_light
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_leg_l_upper
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_leg_l_upper_light
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_leg_r_foot
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_leg_r_foot_light
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_leg_r_shackles
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_leg_r_shackles_light
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_leg_r_upper
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_leg_r_upper_light
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_neck_shackles
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_neck_shackles_light
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_wapon_blade
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_zipper_1
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_zipper_connecter1
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: head
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: head_light
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: headgear_deco_1_light
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: headgear_deco_2_light
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: headgear_deco_3_light
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: headgear_deco_4_light
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: headgear_deco_5_light
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: leg_r_lower
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: leg_r_lower_light
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: mouth_1
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: root
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: side_hair_f
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: zipper_path_closs
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: zipper_path_closs_l
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: zipper_path_oppen_r
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_buckle_l_front2
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_buckle_l_front2_light
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_buckle_l_front3
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: front_buckle_l_front3_light
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  - overrideDisabled: 0
+    slotName: back_arm_l_lower
+    material: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  customMaterialOverrides:
+  - overrideDisabled: 1
+    originalMaterial: {fileID: 2100000, guid: 67528d1d032c952449f9e8012ab3579c, type: 2}
+    replacementMaterial: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  isIndependent: 1
+  enemyLightSaberMat: {fileID: 0}
+  changeIndependentMat1: {fileID: 0}
+  slotLastNum1: 0
+  fadePropertyID1: 0
+  lightSaberFadeValue: 0
+  lightSaberMaxFadeValue: 0
+  enemyBodyLightMat: {fileID: 0}
+  changeIndependentMat2: {fileID: 0}
+  slotLastNum2: 0
+  fadePropertyID2_Replace: 0
+  replaceFadeValue: 0
+  replaceMaxFadeValue: 0
+  fadePropertyID2_Bright: 0
+  bightFadeValue: 0
+  brightMaxFadeValue: 0
+  enemyBodyMat: {fileID: 2100000, guid: 1561decad945b72478e510d2ec02ad61, type: 2}
+  changeIndependentMat3: {fileID: 0}
+  slotLastNum3: 142
+  isIndependentObject: 0
+  objectBodyLightMat: {fileID: 0}
+  changeIndependentObjectMat: {fileID: 0}

@@ -1,0 +1,18 @@
+## 개요
+<table>
+  <tr><td>기간</td><td>2024.01 ~ 2024.06</td></tr>
+  <tr><td>인원</td><td>6명(클라이언트 1, 기획 1, 아트 2, 사운드 1, UI 1)</td></tr>
+  <tr><td>역할</td><td>팀장, 클라이언트</td></tr>
+  <tr><td>도구</td><td>Unity, C#, Spine</td></tr>
+  <tr><td>타겟 기기</td><td>PC</td></tr>
+  <tr><td>참여 활동</td><td>슬기로운 데모생활, GIGDC</td></tr>
+</table>
+
+## 인게임 사진
+
+## 관련 링크
+<table>
+  <tr><td>시연 영상</td><td><a href="https://www.youtube.com/watch?v=WFMWcFAJMYU&ab_channel=%ED%94%8C%EB%A0%88%EC%9D%B4%EC%98%81%EC%83%81">바로가기</a></td></tr>
+  <tr><td>편집 영상</td><td><a href="https://www.youtube.com/watch?v=KSnyiX2CyX4&feature=youtu.be">바로가기</a></td></tr>
+  <tr><td>게임 상점</td><td><a href="https://store.onstove.com/ko/games/3838">바로가기</a></td></tr>
+</table>
